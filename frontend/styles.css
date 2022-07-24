@@ -33,14 +33,14 @@ body{
   .about,
   
    .ratings,
-   .skills,
+ 
    
    .contact,
    footer {
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    } 
    .about .about-content,
-   .ratings .serv-content,
+   .ratings 
  
   
    .contact .contact-content {
@@ -241,20 +241,7 @@ body{
     }
   }
   
-  @media screen and (max-width: 620px) {
-    .container {
-      width: 100%;
-    }
-  
-    .heading {
-      padding: 20px;
-      font-size: 20px;
-    }
-  
-    .card {
-      width: 80%;
-    }
-  } 
+ 
   
   
    
@@ -296,7 +283,7 @@ body{
      color: crimson;
      background: none;
    }
-    *
+    
   #ratings{
     margin-top: 200px;
     background-color: #111;
@@ -531,15 +518,7 @@ body{
       text-align: center;
       
     }
-     .experience .serv-content .card {
-       width: calc(50% - 10px);
-       margin-bottom: 20px;
-     }
-     .skills .skills-content .column,
-     .contact .contact-content .column {
-       width: 100%;
-       margin-bottom: 35px;
-     }
+   
    }
    
    @media (max-width: 690px) {
@@ -555,9 +534,7 @@ body{
      .home .home-content a {
        font-size: 20px;
      }
-     .experience .serv-content .card {
-       width: 100%;
-     }
+    
    }
    
    @media (max-width: 500px) {
@@ -567,13 +544,8 @@ body{
      .home .home-content .text-3 {
        font-size: 27px;
      }
-     .about .about-content .right .text,
-     .skills .skills-content .left .text {
-       font-size: 19px;
-     }
-     .contact .right form .fields {
-       flex-direction: column;
-     }
+    
+    
     
      
    } 
